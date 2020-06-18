@@ -6,6 +6,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 @SpringBootApplication
 @EnableConfigServer
+/*@EnableConfigServer to standup a config server that can communicate with other applications. */
 public class VzConfigServerApplication {
 
 	public static void main(String[] args) {
